@@ -1,0 +1,37 @@
+{
+"date": "2026-04-04",
+"max_load": 3000,
+"pricing": {
+"peak_hours": [[18, 22]],
+"offpeak_hours": [[0, 6]],
+"normal_price": 0.2,
+"peak_price": 0.4,
+"offpeak_price": 0.1
+},
+"appliances": [
+{
+"id":1,
+"name": "Washing Machine",
+"power": 200,
+"duration": 12,
+"preferred_start": 36,
+"preferred_end": 120
+},
+{
+"id":2,
+"name": "Dishwasher",
+"power": 150,
+"duration": 10,
+"preferred_start": 60,
+"preferred_end": 132
+},
+{
+"id":3,
+"name": "EV Charger",
+"power": 70,
+"duration": 24,
+"preferred_start": 72,
+"preferred_end": 144
+}
+]
+}
